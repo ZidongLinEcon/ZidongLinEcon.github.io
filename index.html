@@ -77,10 +77,18 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./files/Zidong_Lin_CV.pdf"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -95,34 +103,39 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Zidong Lin</h1></header>
 
 
 
 
+<div class="columns homepage-intro">
+<div class="column" style="width:68%;">
 <section id="zidong-lin" class="level1">
-<h1>Zidong Lin</h1>
+
 <p><strong>Ph.D.&nbsp;Candidate in Economics</strong><br>
 Universitat Pompeu Fabra</p>
 <p><strong>Research Fields:</strong> Macroeconomics, Macro-Finance, Firm Dynamics<br>
-<strong>Research Interests:</strong> Heterogeneous-Agent Models, Corporate Bankruptcy, Financial Frictions</p>
+<strong>Research Interests:</strong> Heterogeneous-Agent Models, Corporate Bankruptcy, Financial Frictions, Firm Dynamics</p>
 <p><strong>2026–2027 Job Market Candidate</strong></p>
-<p><a href="files/Zidong_Lin_CV.pdf">CV</a> · <a href="files/Zidong_Lin_JMP.pdf">Job Market Paper</a></p>
-<hr>
-<section id="research" class="level2">
-<h2 class="anchored" data-anchor-id="research">Research</h2>
-<p>My research focuses on Macroeconomics and Macro-Finance, with particular interests in firm financing, bankruptcy, financial fragility, and heterogeneous-agents models.</p>
+<p><a href="mailto:zidong.lin@upf.edu">zidong.lin@upf.edu</a></p>
 </section>
+</div><div class="column" style="width:32%;">
+<p><img src="images/ZidongLin.jpg" class="profile-photo img-fluid"></p>
+</div>
+</div>
 <section id="job-market-paper" class="level2">
 <h2 class="anchored" data-anchor-id="job-market-paper">Job Market Paper</h2>
-<p><strong>Bankruptcy Procedures, Debt Capacity, and Aggregate Fragility</strong></p>
-<p>Paper and abstract coming soon.</p>
-</section>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p>Department of Economics and Business<br>
-Universitat Pompeu Fabra</p>
-<p>Email: <a href="mailto:zidong.lin@upf.edu">zidong.lin@upf.edu</a></p>
+<section id="bankruptcy-procedures-debt-capacity-and-aggregate-fragility" class="level3">
+<h3 class="anchored" data-anchor-id="bankruptcy-procedures-debt-capacity-and-aggregate-fragility">Bankruptcy Procedures, Debt Capacity, and Aggregate Fragility</h3>
+<!-- 等 PDF 准备好以后打开这一行 -->
+<!-- [Paper](files/Zidong_Lin_JMP.pdf) -->
+<details class="abstract">
+<summary>
+Abstract
+</summary>
+<p>
+</p>
+</details>
 
 
 </section>
@@ -202,7 +215,7 @@ Universitat Pompeu Fabra</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/ZidongLinEcon\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
