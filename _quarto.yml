@@ -11,7 +11,7 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: files/Zidong_Lin_CV.pdf
+      - href: cv.qmd
         text: CV
 
 format:
