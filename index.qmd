@@ -2,34 +2,44 @@
 title: ""
 ---
 
+:::: {.columns .homepage-intro}
+
+::: {.column width="68%"}
+
 # Zidong Lin
 
 **Ph.D. Candidate in Economics**  
 Universitat Pompeu Fabra
 
 **Research Fields:** Macroeconomics, Macro-Finance, Firm Dynamics  
-**Research Interests:** Heterogeneous-Agent Models, Corporate Bankruptcy, Financial Frictions
+**Research Interests:** Heterogeneous-Agent Models, Corporate Bankruptcy, Financial Frictions, Firm Dynamics
 
 **2026–2027 Job Market Candidate**
 
-[CV](files/Zidong_Lin_CV.pdf) ·
-[Job Market Paper](files/Zidong_Lin_JMP.pdf) 
+[zidong.lin@upf.edu](mailto:zidong.lin@upf.edu)
 
----
+:::
 
-## Research
+::: {.column width="32%"}
 
-My research focuses on Macroeconomics and Macro-Finance, with particular interests in firm financing, bankruptcy, financial fragility, and heterogeneous-agents models.
+![](images/ZidongLin.jpg){.profile-photo}
+
+:::
+
+::::
+
 
 ## Job Market Paper
 
-**Bankruptcy Procedures, Debt Capacity, and Aggregate Fragility**
+### Bankruptcy Procedures, Debt Capacity, and Aggregate Fragility
 
-Paper and abstract coming soon.
+<!-- 等 PDF 准备好以后打开这一行 -->
+<!-- [Paper](files/Zidong_Lin_JMP.pdf) -->
 
-## Contact
+<details class="abstract">
+<summary>Abstract</summary>
 
-Department of Economics and Business  
-Universitat Pompeu Fabra  
+<p>
+</p>
 
-Email: [zidong.lin@upf.edu](mailto:zidong.lin@upf.edu)
+</details>

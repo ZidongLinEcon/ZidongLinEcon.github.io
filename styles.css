@@ -1,33 +1,68 @@
-/* Main page width */
-.quarto-container {
-  max-width: 1150px;
-}
+/* ---------- Overall page ---------- */
 
-/* Main text */
 body {
   font-size: 17px;
-  line-height: 1.6;
+  line-height: 1.65;
+  color: #30343b;
 }
 
-/* Headings */
+main.content {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2.2rem;
+  padding-bottom: 4rem;
+}
+
+
+/* ---------- Headings ---------- */
+
 h1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.4rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 600;
-  margin-top: 2.5rem;
+  margin-top: 2.8rem;
+  margin-bottom: 1.2rem;
 }
 
-/* Navbar */
+
+/* ---------- Navbar ---------- */
+
 .navbar {
-  font-size: 1rem;
+  min-height: 64px;
+  border-bottom: 1px solid #e2e2e2;
 }
 
-/* Links */
+.navbar-brand {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.85rem;
+  margin-left: 1.1rem;
+  padding-bottom: 0.4rem;
+}
+
+
+/* Current page underline */
+
+.navbar-nav .nav-link.active {
+  border-bottom: 2px solid #263a5b;
+}
+
+
+/* ---------- Links ---------- */
+
 a {
   text-decoration: none;
 }
@@ -36,9 +71,77 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Homepage content */
-main.content {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+
+/* ---------- Horizontal rules ---------- */
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.25;
+}
+
+/* ---------- Research paper abstracts ---------- */
+
+details.abstract {
+  margin-top: 0.6rem;
+  margin-bottom: 1.8rem;
+}
+
+details.abstract summary {
+  cursor: pointer;
+  color: #4267b2;
+  font-size: 0.95rem;
+  list-style: none;
+  display: inline-block;
+}
+
+details.abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+details.abstract summary::after {
+  content: " +";
+}
+
+details.abstract[open] summary::after {
+  content: " −";
+}
+
+details.abstract p {
+  margin-top: 1rem;
+  padding: 1rem 1.2rem;
+  border-left: 2px solid #d6d6d6;
+  line-height: 1.65;
+  max-width: 850px;
+}
+
+/* Paper titles */
+.home-jmp h3,
+body:not(.homepage) h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.35;
+  margin-top: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Homepage photo */
+
+/* Homepage photo */
+
+.homepage-intro {
+  align-items: start;
+}
+
+.homepage-intro .column:last-child p {
+  margin-top: 0;
+}
+
+.profile-photo {
+  width: 255px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: -0.6rem 0 0 auto;
 }

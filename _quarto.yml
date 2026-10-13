@@ -4,10 +4,15 @@ project:
 website:
   title: "Zidong Lin"
   search: false
+
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    right:
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: files/Zidong_Lin_CV.pdf
+        text: CV
 
 format:
   html:
