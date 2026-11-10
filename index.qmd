@@ -40,6 +40,8 @@ Universitat Pompeu Fabra
 <summary>Abstract</summary>
 
 <p>
+Much corporate debt is backed by firms' going concern value rather than the liquidation value of their assets. Such borrowing exposes firms to rollover risk, since what creditors recover depends on the firm continuing to operate. I study how bankruptcy procedures shape firms' debt capacity and aggregate fragility in a heterogeneous-firm general-equilibrium model with defaultable short-term debt and rollover risk. Reorganization raises creditor recoveries in default, expanding the amount of debt that is safe from runs, but weakens repayment incentives when creditors have limited bargaining power. 
+In the calibrated U.S. economy, the first force dominates: easier reorganization raises debt capacity, productivity, and welfare. These gains can reverse when rollover risk is sufficiently low. Yet such economies are also the most fragile, as firms self-insure less and take on more refinancing exposure. Reorganization therefore provides  greater protection against credit market disruptions precisely where it may reduce steady-state welfare.
 </p>
 
 </details>

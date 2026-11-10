@@ -4,4 +4,4 @@ title: ""
 
 # Curriculum Vitae
 
-[Curriculum Vitae (PDF)](files/Zidong_Lin_CV.pdf)
+[Curriculum Vitae (PDF)](files/CV_ZidongLin.pdf)
