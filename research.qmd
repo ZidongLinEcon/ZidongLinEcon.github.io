@@ -3,10 +3,9 @@ title: "Research"
 ---
 
 ## Job Market Paper
-<div class="paper-heading">
-  <span class="paper-title">Bankruptcy Procedures, Debt Capacity, and Aggregate Fragility</span>
-  <a href="files/ZidongLin_Bankruptcy_Debt_Capacity_Fragility.pdf">[Draft]</a>
-</div>
+
+### Bankruptcy Procedures, Debt Capacity, and Aggregate Fragility [<a class="paper-link" href="files/ZidongLin_Bankruptcy_Debt_Capacity_Fragility.pdf">Draft</a>]
+
 
 
 <details class="abstract">
